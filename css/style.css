@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/*
 @font-face{
   font-family: helvetica;
   src:url("../fonts/Helvetica.ttf");
@@ -12,9 +13,10 @@
   src:url("../fonts/Helvetica-Bold.ttf");
   font-weight: bold;
 }
+*/
 
 body{
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   background-color: #c4c4c4;
 }
@@ -117,9 +119,10 @@ div.visible{
 .bound{
   width: 100%;
   padding:10px 16px 10px 16px;
-  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 8px;
   font-size: 14px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: #919191;
 }
 
@@ -144,33 +147,39 @@ div.bus{
 div.time{
   width: 41%;
   padding: 0;
-  margin-top: 29px;
+  margin-top: 16px;
   margin-right: 18px;
   text-align: right;
   float: right;
 }
 
 .bus{
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 24px;
+  /*font-weight: bold;*/
 }
 
 .time{
-  font-weight: bold;
-  color: #01A39D;
-  font-size: 20px;
+/*  font-weight: bold;*/
+  color: #000000;
+  font-size: 24px;
 }
+
+h2.nowtime{
+  color: #01A39D;
+  font-size: 24px;
+}
+
  .warning{
-   color:#ff0000;
+   color:#ff0066;
  }
  .long{
-   font-size: 18px;
+   font-size: 19px;
  }
 .des{
 
   margin-top: 10px;
   font-size: 14px;
-  color: #616161
+  color: #919191;
 }
 footer{
   width: 100%;
